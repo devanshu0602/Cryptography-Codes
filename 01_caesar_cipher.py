@@ -43,9 +43,9 @@ def decryption(key, cipher_text):
 
 
 # Get the plain text
-plain_text = input("\n\nEnter the plain text: ")
+plain_text = input("\n\nEnter the plain text: ") # HOWDY
 # Get the key value
-key = int(input("Enter the key value: "))
+key = int(input("Enter the key value: ")) # 5
 # Make sure key value is between 1 and 25
 while key < 1 and key > 25:
     print("Invalid key value.")
@@ -57,9 +57,9 @@ print(f"\n-> The encrypted text is: {cipher_text}")
 print("\n\n")
 
 # Get the cipher text
-cipher_text = input("Enter the cipher text: ")
+cipher_text = input("Enter the cipher text: ") # MTBID
 # Get the key value
-key = int(input("Enter the key value: "))
+key = int(input("Enter the key value: ")) # 5
 # Make sure key value is between 1 and 25
 while key < 1 and key > 25:
     print("Invalid key value.")
