@@ -63,10 +63,10 @@ def hill_cipher(plain_text_pairs, key):
     
 
 # Get the plain text
-plain_text = input("\n\n-> Enter the plain text: ")
+plain_text = input("\n\n-> Enter the plain text: ") # welcome
 plain_text = clean_plain_text(plain_text=plain_text)
 # Get the key
-key = input("\n-> Enter the key to be used: ")
+key = input("\n-> Enter the key to be used: ") # test
 key_matrix = create_key_matrix(key=key)
 for row in key_matrix:
     print(row)
