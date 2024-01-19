@@ -37,9 +37,9 @@ def decrypt(cipher_text, key):
 
 ## ENCRYPTION ##
 # Get the plain text
-plain_text = input("\n\n-> Enter the plain text: ")
-# Get the key -> ESWZGKYDVOQRXPNTILFCAHJBMU
-key_str = input("\n-> Enter the key to be used: ")
+plain_text = input("\n\n-> Enter the plain text: ") # secret message
+# Get the key
+key_str = input("\n-> Enter the key to be used: ") # ESWZGKYDVOQRXPNTILFCAHJBMU
 key = []
 for alphabet in key_str:
     key.append(alphabet)
@@ -49,9 +49,9 @@ print(f"\n\n=> The encrypted text is: {cipher_text}")
 
 ## DECRYPTION ##
 # Get the encrypted text
-cipher_text = input("\n\n-> Enter the cipher text: ")
-# Get the key -> ESWZGKYDVOQRXPNTILFCAHJBMU
-key_str = input("\n-> Enter the key to be used: ")
+cipher_text = input("\n\n-> Enter the cipher text: ") # FGWLGCXGFFEYG
+# Get the key
+key_str = input("\n-> Enter the key to be used: ") # ESWZGKYDVOQRXPNTILFCAHJBMU
 key = []
 for alphabet in key_str:
     key.append(alphabet)
