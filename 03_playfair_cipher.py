@@ -88,7 +88,7 @@ def fairplay_cipher_encryption(plain_text, playfair_table):
 
 print("\n\n")
 # Get the plain text
-plain_text = input("-> Enter the plain text: ")
+plain_text = input("-> Enter the plain text: ") # secret message
 plain_text = plain_text.upper()
 plain_text = plain_text.replace(" ", "")
 # Create the table
