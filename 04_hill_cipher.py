@@ -54,7 +54,7 @@ def find_inverse(key):
         for col in range(2):
             inverse[row][col] = adjoint[row][col] * x    
     # Return the Inverse
-    return adjoint
+    return inverse
 
 
 def create_text_pairs(text):
